@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samarth Trigule | Data Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 18px;
+      margin-top: 10px;
+      color: #94a3b8;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding: 15px;
+      background: #020617;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: #e2e8f0;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+
+    h2 {
+      border-left: 5px solid #38bdf8;
+      padding-left: 10px;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 25px;
+      border-radius: 14px;
+      margin-top: 20px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.5);
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #38bdf8;
+      color: #0f172a;
+      padding: 8px 14px;
+      border-radius: 8px;
+      margin: 6px;
+      font-size: 14px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 22px;
+      background: #38bdf8;
+      color: #0f172a;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 15px;
+      font-weight: 600;
+    }
+
+    .timeline p {
+      margin: 8px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #94a3b8;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Samarth Trigule</h1>
+  <p>Data Engineer | AWS | PySpark | SQL | ETL Pipelines</p>
+  <a class="btn" href="#contact">Contact Me</a>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#project">Project</a>
+  <a href="#experience">Experience</a>
+  <a href="#resume">Resume</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      I am a Data Engineering aspirant with hands-on experience in designing and building scalable data pipelines. I specialize in AWS, PySpark, and SQL, with a strong focus on ETL processes, data transformation, and performance optimization.
+    </p>
+    <p>
+      I have worked on real-world datasets involving large-scale processing, implementing both full load and incremental data ingestion strategies.
+    </p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="card skills">
+    <span>Python</span>
+    <span>SQL</span>
+    <span>PySpark</span>
+    <span>AWS S3</span>
+    <span>AWS Glue</span>
+    <span>Amazon Redshift</span>
+    <span>ETL Pipelines</span>
+    <span>Data Warehousing</span>
+    <span>Data Modeling</span>
+    <span>Parquet</span>
+    <span>Data Cleaning</span>
+  </div>
+</section>
+
+<section id="project">
+  <h2>PharmaInsights Data Engineering Project</h2>
+  <div class="card">
+    <p><b>Domain:</b> US Pharmaceutical Data Processing</p>
+    <p><b>Tools Used:</b> AWS S3, AWS Glue, PySpark, Redshift</p>
+
+    <p><b>Architecture:</b></p>
+    <p>Raw Layer (S3) → Staging → Transformation (PySpark) → Data Warehouse (Redshift)</p>
+
+    <p><b>Key Implementations:</b></p>
+    <ul>
+      <li>Designed scalable ETL pipeline for large datasets</li>
+      <li>Implemented Incremental Load and Full Load strategies</li>
+      <li>Used Parquet format for performance optimization</li>
+      <li>Performed data cleaning, validation, and transformation</li>
+      <li>Optimized Spark jobs for better performance</li>
+    </ul>
+
+    <p><b>Impact:</b> Improved data processing efficiency and enabled faster business insights.</p>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience (Project-Based)</h2>
+  <div class="card timeline">
+    <p><b>Role:</b> Data Engineer (Project)</p>
+    <p><b>Work:</b> Built end-to-end ETL pipelines using AWS and PySpark</p>
+    <p><b>Responsibilities:</b></p>
+    <ul>
+      <li>Data ingestion from multiple sources</li>
+      <li>Transformation using PySpark</li>
+      <li>Data validation and quality checks</li>
+      <li>Loading data into Redshift</li>
+      <li>Monitoring and debugging ETL jobs</li>
+    </ul>
+  </div>
+</section>
+
+<section id="resume">
+  <h2>Resume</h2>
+  <div class="card">
+    <p>Download my resume:</p>
+    <a class="btn" href="resume.pdf">Download Resume</a>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: samarth1626h@gmail.com</p>
+    <p>GitHub: https://github.com/Samarth-trigule</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Samarth Trigule | Data Engineer Portfolio</p>
+</footer>
+
+</body>
+</html>
